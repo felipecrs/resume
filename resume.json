@@ -1,83 +1,69 @@
 {
-  "$schema": "https://json.schemastore.org/resume",
   "basics": {
     "name": "Felipe Santos",
-    "label": "Desenvolvedor de Software na Ericsson através do Inatel",
-    "image": "",
-    "email": "felipecassiors@gmail.com",
+    "label": "Um Engenheiro de Computação, apaixonado por código aberto.",
+    "picture": "",
+    "email": "",
     "phone": "",
-    "url": "",
-    "summary": "Um Engenheiro de Computação, apaixonado por código aberto.",
+    "website": "",
+    "summary": "Desenvolvimento de programas",
     "location": {
-      "address": "Conceição dos Ouros, Minas Gerais, Brazil",
+      "address": "",
       "postalCode": "",
       "city": "",
-      "countryCode": "BR",
+      "countryCode": "",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "felipecassiors",
-        "url": "https://www.linkedin.com/in/felipecassiors/"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "endDate": "",
-      "highlights": [],
+      "company": "Instituto Nacional de Telecomunicações - Inatel",
       "position": "Especialista em Sistemas",
-      "startDate": "2020-07-31",
+      "website": "",
+      "startDate": "2020-07-01",
       "summary": "",
-      "url": "https://www.linkedin.com/company/15128514"
+      "highlights": []
     },
     {
-      "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "endDate": "2020-07-31",
-      "highlights": [],
+      "company": "Instituto Nacional de Telecomunicações - Inatel",
       "position": "Estagiário de Especialista em Sistemas",
-      "startDate": "2018-10-31",
+      "website": "",
+      "startDate": "2018-10-01",
       "summary": "",
-      "url": "https://www.linkedin.com/company/15128514"
+      "highlights": [],
+      "endDate": "2020-07-01"
     },
     {
-      "name": "Gabriele Confecção",
-      "endDate": "2018-10-31",
-      "highlights": [],
+      "company": "Gabriele Confecção",
       "position": "Técnico em Informática",
-      "startDate": "2015-07-31",
+      "website": "",
+      "startDate": "2015-07-01",
       "summary": "",
-      "url": ""
+      "highlights": [],
+      "endDate": "2018-10-01"
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Instituto Nacional de Telecomunicações - Inatel",
-      "area": "Engenharia de Computação",
+      "area": "",
       "studyType": "Bacharelado em Engenharia",
-      "startDate": "2015-12-31",
-      "endDate": "2020-12-31",
+      "startDate": "2014-12-31",
       "gpa": "",
-      "courses": [
-        "null - Introdução a Telefonia Móvel",
-        "null - Desenvolvimentos de jogos 3D com Unity"
-      ]
+      "courses": [],
+      "endDate": "2019-12-31"
     },
     {
       "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\"",
-      "area": "Técnico em Automação Industrial",
+      "area": "",
       "studyType": "Técnico",
-      "startDate": "2013-12-31",
-      "endDate": "2014-12-31",
+      "startDate": "2012-12-31",
       "gpa": "",
-      "courses": []
+      "courses": [],
+      "endDate": "2013-12-31"
     }
   ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
       "name": "Git",
@@ -105,47 +91,7 @@
       "keywords": []
     },
     {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "GitHub",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Office",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Vagrant",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "REST",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Rede de computadores",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Groovy",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
+      "name": "Programação de computadores",
       "level": "",
       "keywords": []
     },
@@ -155,62 +101,7 @@
       "keywords": []
     },
     {
-      "name": "Spring Framework",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Gradle",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Word",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Programação de computadores",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JIRA",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Apache Maven",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalação de equipamentos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Soluções de TI",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Inglês",
+      "name": "Solução de problemas técnicos",
       "level": "",
       "keywords": []
     },
@@ -220,27 +111,7 @@
       "keywords": []
     },
     {
-      "name": "JSON",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalação de hardware",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Windows",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bash",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solução de problemas técnicos",
+      "name": "Soluções de TI",
       "level": "",
       "keywords": []
     },
@@ -250,22 +121,12 @@
       "keywords": []
     },
     {
-      "name": "Go",
+      "name": "Gestão de configuração",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Desenvolvimento de software",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C++",
+      "name": "Java",
       "level": "",
       "keywords": []
     },
@@ -275,18 +136,144 @@
       "keywords": []
     },
     {
-      "name": "Gestão de configuração",
+      "name": "Microsoft Word",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JIRA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vagrant",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Maven",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Inglês",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rede de computadores",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalação de hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalação de equipamentos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gradle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desenvolvimento de software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Groovy",
       "level": "",
       "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "pt",
-      "fluency": "Native Speaker"
+      "language": "Português",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
     }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  ]
 }
