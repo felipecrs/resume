@@ -14,7 +14,13 @@
       "countryCode": "55",
       "region": "MG"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "url": "https://github.com/felipecrs",
+        "username": "felipecrs",
+        "network": "GitHub"
+      }
+    ]
   },
   "work": [
     {
