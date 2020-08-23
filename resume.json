@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/resume",
-  "meta": { 
-    "theme": "elegant" 
+  "meta": {
+    "theme": "kendall"
   },
   "basics": {
     "name": "Felipe Santos",
