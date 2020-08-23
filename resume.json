@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json.schemastore.org/resume",
+  "basics": {
+    "name": "Felipe Santos",
+    "label": "Desenvolvedor de Software na Ericsson através do Inatel",
+    "image": "",
+    "email": "felipecassiors@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Um Engenheiro de Computação, apaixonado por código aberto.",
+    "location": {
+      "address": "Conceição dos Ouros, Minas Gerais, Brazil",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "BR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "felipecassiors",
+        "url": "https://www.linkedin.com/in/felipecassiors/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "endDate": "",
+      "highlights": [],
+      "position": "Especialista em Sistemas",
+      "startDate": "2020-07-31",
+      "summary": null,
+      "url": "https://www.linkedin.com/company/15128514"
+    },
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "endDate": "2020-07-31",
+      "highlights": [],
+      "position": "Estagiário de Especialista em Sistemas",
+      "startDate": "2018-10-31",
+      "summary": null,
+      "url": "https://www.linkedin.com/company/15128514"
+    },
+    {
+      "name": "Gabriele Confecção",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "position": "Técnico em Informática",
+      "startDate": "2015-07-31",
+      "summary": null,
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Instituto Nacional de Telecomunicações - Inatel",
+      "area": "Engenharia de Computação",
+      "studyType": "Bacharelado em Engenharia",
+      "startDate": "2015-12-31",
+      "endDate": "2020-12-31",
+      "gpa": "",
+      "courses": [
+        "null - Introdução a Telefonia Móvel",
+        "null - Desenvolvimentos de jogos 3D com Unity"
+      ]
+    },
+    {
+      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\"",
+      "area": "Técnico em Automação Industrial",
+      "studyType": "Técnico",
+      "startDate": "2013-12-31",
+      "endDate": "2014-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Shell script",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Manutenção de computadores",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalações elétricas",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vagrant",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rede de computadores",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Groovy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalação de software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gradle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Word",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programação de computadores",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JIRA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Maven",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalação de equipamentos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Soluções de TI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Inglês",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desenvolvimento de jogos eletrônicos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Instalação de hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solução de problemas técnicos",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Integração contínua",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desenvolvimento de software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestão de configuração",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "pt",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
