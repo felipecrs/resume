@@ -1,7 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/resume",
   "meta": {
-    "theme": "kendall"
+    "theme": "kendall",
+    "version": "v1.0.0"
   },
   "basics": {
     "name": "Felipe Santos",
@@ -157,14 +158,14 @@
       "publisher": "Instituto Nacional de Telecomunicações - Inatel",
       "releaseDate": "2020-07-21",
       "summary": "An open source project for search and comparison of prices in local establishments",
-      "url": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
+      "website": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
     },
     {
       "name": "Dev Ubuntu 20.04",
       "publisher": "DEV",
       "releaseDate": "2020-05-26",
       "summary": "The history of a Virtual Machine managed as a Docker image",
-      "url": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
+      "website": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
     }
   ],
   "projects": [
