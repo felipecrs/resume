@@ -150,5 +150,33 @@
       "language": "Spanish",
       "fluency": "Beginner"
     }
+  ],
+  "publications": [
+    {
+      "name": "Price Search (Undergraduate Thesis in Portuguese)",
+      "publisher": "Instituto Nacional de Telecomunicações - Inatel",
+      "releaseDate": "2020-07-21",
+      "summary": "An open source project for search and comparison of prices in local establishments",
+      "url": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
+    },
+    {
+      "name": "Dev Ubuntu 20.04",
+      "publisher": "DEV",
+      "releaseDate": "2020-05-26",
+      "summary": "The history of a Virtual Machine managed as a Docker image",
+      "url": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Digital BSS",
+      "description": "Catalog Manager and Order Care",
+      "entity": "Ericsson",
+      "url": "https://www.ericsson.com/en/portfolio/digital-services/digital-bss",
+      "roles": [
+        "DevOps", "Software Developer"
+      ],
+      "startDate": "2018-08"
+    }
   ]
 }
