@@ -13,10 +13,10 @@
     "summary": "A Computer Engineer, passionate for open source.",
     "location": {
       "address": "Rua Josino Tenório Rocha, 73",
-      "postalCode": "37548-000",
       "city": "Conceição dos Ouros",
-      "countryCode": "BR",
-      "region": "MG"
+      "region": "MG",
+      "postalCode": "37548-000",
+      "countryCode": "BR"
     },
     "profiles": [
       {
@@ -95,9 +95,9 @@
   ],
   "skills": [
     {
-      "name": "Git",
+      "name": "Software Development",
       "level": "",
-      "keywords": []
+      "keywords": ["Git"]
     },
     {
       "name": "Shell script",
@@ -297,8 +297,8 @@
   ],
   "languages": [
     {
-      "language": "Português",
-      "fluency": "Native or bilingual proficiency"
+      "language": "Portuguese",
+      "fluency": "Native"
     },
     {
       "language": "English",
