@@ -23,22 +23,39 @@
         "url": "https://github.com/felipecrs",
         "username": "felipecrs",
         "network": "GitHub"
+      },
+      {
+        "url": "https://linkedin.com/in/felipecassiors",
+        "username": "felipecassiors",
+        "network": "LinkedIn"
+      },
+      {
+        "url": "https://sourcerer.io/felipecassiors",
+        "username": "felipecassiors",
+        "network": "Sourcerer"
+      },
+      {
+        "url": "https://profile.codersrank.io/user/felipecassiors",
+        "username": "felipecassiors",
+        "network": "CodersRank"
       }
     ]
   },
   "work": [
     {
       "company": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "Especialista em Sistemas",
-      "website": "",
+      "position": "System Specialist",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2020-07-01",
       "summary": "",
       "highlights": []
     },
     {
       "company": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "Estagiário de Especialista em Sistemas",
-      "website": "",
+      "position": "System Specialist Intern",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2018-10-01",
       "summary": "",
       "highlights": [],
@@ -47,7 +64,7 @@
     {
       "company": "Gabriele Confecção",
       "position": "Técnico em Informática",
-      "website": "",
+      "location": "Cachoeira de Minas, MG. Brazil",
       "startDate": "2015-07-01",
       "summary": "",
       "highlights": [],
@@ -57,21 +74,22 @@
   "education": [
     {
       "institution": "Instituto Nacional de Telecomunicações - Inatel",
-      "area": "",
-      "studyType": "Bacharelado em Engenharia",
-      "startDate": "2014-12-31",
+      "area": "Computer Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2015-07",
       "gpa": "",
       "courses": [],
-      "endDate": "2019-12-31"
+      "endDate": "2020-07",
+      "url": "https://inatel.br/vestibular/engenharia-de-computacao"
     },
     {
-      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\"",
-      "area": "",
-      "studyType": "Técnico",
-      "startDate": "2012-12-31",
+      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
+      "area": "Industrial Automation Technician",
+      "studyType": "Technician",
+      "startDate": "2013-01",
       "gpa": "",
       "courses": [],
-      "endDate": "2013-12-31"
+      "endDate": "2014-12"
     }
   ],
   "skills": [
