@@ -76,16 +76,17 @@
       "institution": "Instituto Nacional de Telecomunicações - Inatel",
       "area": "Computer Engineering",
       "studyType": "Bachelors",
+      "url": "https://inatel.br/vestibular/engenharia-de-computacao",
       "startDate": "2015-07",
       "gpa": "",
       "courses": [],
-      "endDate": "2020-07",
-      "url": "https://inatel.br/vestibular/engenharia-de-computacao"
+      "endDate": "2020-07"
     },
     {
       "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
       "area": "Industrial Automation Technician",
       "studyType": "Technician",
+      "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
       "startDate": "2013-01",
       "gpa": "",
       "courses": [],
