@@ -48,7 +48,7 @@
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2020-07-01",
-      "summary": "",
+      "summary": "Software Development for Ericsson focused on CI / CD and Cloud-Native technologies.",
       "highlights": []
     },
     {
@@ -56,19 +56,19 @@
       "position": "System Specialist Intern",
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
-      "startDate": "2018-10-01",
-      "summary": "",
-      "highlights": [],
-      "endDate": "2020-07-01"
+      "startDate": "2018-10",
+      "endDate": "2020-07",
+      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI / CD technologies.",
+      "highlights": []
     },
     {
       "company": "Gabriele Confecção",
       "position": "Técnico em Informática",
       "location": "Cachoeira de Minas, MG. Brazil",
-      "startDate": "2015-07-01",
-      "summary": "",
-      "highlights": [],
-      "endDate": "2018-10-01"
+      "startDate": "2015-07",
+      "endDate": "2018-10",
+      "summary": "Computer maintenance and network management.",
+      "highlights": []
     }
   ],
   "education": [
@@ -78,9 +78,9 @@
       "studyType": "Bachelor's",
       "url": "https://inatel.br/vestibular/engenharia-de-computacao",
       "startDate": "2015-07",
+      "endDate": "2020-07",
       "gpa": "",
-      "courses": [],
-      "endDate": "2020-07"
+      "courses": []
     },
     {
       "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
@@ -88,211 +88,53 @@
       "studyType": "Technician",
       "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
       "startDate": "2013-01",
+      "endDate": "2014-12",
       "gpa": "",
-      "courses": [],
-      "endDate": "2014-12"
+      "courses": []
     }
   ],
   "skills": [
     {
       "name": "Software Development",
       "level": "",
-      "keywords": ["Git"]
+      "keywords": [
+        "TypeScript / JavasScript / Node.js",
+        "Shell Script",
+        "Java",
+        "Groovy",
+        "PowerShell",
+        "Python",
+        "Go",
+        "C++",
+        "REST"
+      ]
     },
     {
-      "name": "Shell script",
+      "name": "DevOps",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "Jenkins",
+        "Vagrant",
+        "Git",
+        "Gerrit",
+        "GitHub",
+        "Gradle",
+        "Maven",
+        "CI / CD"
+      ]
     },
     {
-      "name": "Jenkins",
+      "name": "Database",
       "level": "",
-      "keywords": []
+      "keywords": ["SQL", "MongoDB", "MySQL", "Postgres", "Oracle", "SQLite"]
     },
     {
-      "name": "Manutenção de computadores",
+      "name": "Network Management",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalações elétricas",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Programação de computadores",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalação de software",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solução de problemas técnicos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Desenvolvimento de jogos eletrônicos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Soluções de TI",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Integração contínua",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Gestão de configuração",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Excel",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Word",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Office",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C++",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Windows",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "GitHub",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Spring Framework",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JIRA",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "REST",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Vagrant",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Apache Maven",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bash",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JSON",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Inglês",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Rede de computadores",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalação de hardware",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Instalação de equipamentos",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Gradle",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Desenvolvimento de software",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Go",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Groovy",
-      "level": "",
-      "keywords": []
+      "keywords": ["Windows Server", "DNS", "Spiceworks", "Active Directory"]
     }
   ],
   "languages": [
