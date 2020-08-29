@@ -1,16 +1,16 @@
 {
   "$schema": "https://json.schemastore.org/resume",
   "meta": {
-    "theme": "kendall",
-    "version": "v1.0.0"
+    "canonical": "https://gist.githubusercontent.com/felipecrs/752f9ab929a558847557d791171f08a6/raw/resume.json",
+    "theme": "kendall"
   },
   "basics": {
     "name": "Felipe Santos",
     "label": "Computer Engineer",
-    "picture": "https://gist.githubusercontent.com/felipecrs/752f9ab929a558847557d791171f08a6/raw/889871dad358a7e461bff9c84b0063d98eca3295/picture.jpg",
+    "image": "https://gist.githubusercontent.com/felipecrs/752f9ab929a558847557d791171f08a6/raw/889871dad358a7e461bff9c84b0063d98eca3295/picture.jpg",
     "email": "felipecassiors@gmail.com",
     "phone": "+55 (35) 998450190",
-    "website": "https://felipesantos.dev",
+    "url": "https://felipesantos.dev",
     "summary": "A Computer Engineer with great experience in CI/CD and Cloud-Native technologies and problem-solving skills. Passionate for open source.",
     "location": {
       "address": "Rua Josino Tenório Rocha, 73",
@@ -42,58 +42,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "company": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "System Specialist",
-      "website": "https://inatel.br/icc",
-      "location": "Santa Rita do Sapucaí, MG. Brazil",
-      "startDate": "2020-07-01",
-      "summary": "Software Development for Ericsson focused on CI / CD and Cloud-Native technologies.",
-      "highlights": []
-    },
-    {
-      "company": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "System Specialist Intern",
-      "website": "https://inatel.br/icc",
-      "location": "Santa Rita do Sapucaí, MG. Brazil",
-      "startDate": "2018-10",
-      "endDate": "2020-07",
-      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI / CD technologies.",
-      "highlights": []
-    },
-    {
-      "company": "Gabriele Confecção",
-      "position": "Information Technology Technician",
-      "location": "Cachoeira de Minas, MG. Brazil",
-      "startDate": "2015-07",
-      "endDate": "2018-10",
-      "summary": "Computer maintenance and network management.",
-      "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "Instituto Nacional de Telecomunicações - Inatel",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor's",
-      "website": "https://inatel.br/vestibular/engenharia-de-computacao",
-      "startDate": "2015-07",
-      "endDate": "2020-07",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
-      "area": "Industrial Automation Technician",
-      "studyType": "Technician",
-      "website": "https://www.etefmc.com.br/curso-de-automacao-industrial",
-      "startDate": "2013-01",
-      "endDate": "2014-12",
-      "gpa": "",
-      "courses": []
-    }
-  ],
   "skills": [
     {
       "name": "Software Development",
@@ -152,20 +100,65 @@
       "fluency": "Beginner"
     }
   ],
+  "work": [
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "position": "System Specialist",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "startDate": "2020-07-01",
+      "summary": "Software Development for Ericsson focused on CI / CD and Cloud-Native technologies."
+    },
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "position": "System Specialist Intern",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "startDate": "2018-10-01",
+      "endDate": "2020-07-01",
+      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI / CD technologies."
+    },
+    {
+      "name": "Gabriele Confecção",
+      "position": "Information Technology Technician",
+      "location": "Cachoeira de Minas, MG. Brazil",
+      "startDate": "2015-07-01",
+      "endDate": "2018-10-01",
+      "summary": "Computer maintenance and network management."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Nacional de Telecomunicações - Inatel",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's",
+      "url": "https://inatel.br/vestibular/engenharia-de-computacao",
+      "startDate": "2015-07-01",
+      "endDate": "2020-07-26"
+    },
+    {
+      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
+      "area": "Industrial Automation Technician",
+      "studyType": "Technician",
+      "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
+      "startDate": "2013-01-01",
+      "endDate": "2014-12-31"
+    }
+  ],
   "publications": [
     {
-      "name": "Price Search (Undergraduate Thesis in Portuguese)",
+      "name": "Price Search",
       "publisher": "Instituto Nacional de Telecomunicações - Inatel",
       "releaseDate": "2020-07-21",
-      "summary": "An open source project for search and comparison of prices in local establishments",
-      "website": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
+      "summary": "An open source project for search and comparison of prices in local establishments (Undergraduate Thesis in Portuguese)",
+      "url": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
     },
     {
       "name": "Dev Ubuntu 20.04",
       "publisher": "DEV",
       "releaseDate": "2020-05-26",
       "summary": "The history of a Virtual Machine managed as a Docker image",
-      "website": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
+      "url": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
     }
   ],
   "projects": [
@@ -174,10 +167,25 @@
       "description": "Catalog Manager and Order Care",
       "entity": "Ericsson",
       "url": "https://www.ericsson.com/en/portfolio/digital-services/digital-bss",
-      "roles": [
-        "DevOps", "Software Developer"
-      ],
-      "startDate": "2018-08"
+      "roles": ["DevOps", "Software Developer"],
+      "startDate": "2018-08-01",
+      "keywords": ["JavaScript", "Java", "Shell Script"]
+    },
+    {
+      "name": "bindl",
+      "description": "An utility to download binaries for different platforms",
+      "url": "https://github.com/felipecrs/bindl#readme",
+      "startDate": "2020-06-28",
+      "keywords": ["TypeScript", "NPM"]
+    },
+    {
+      "name": "vscode-shellcheck",
+      "description": "An extension to use shellcheck in vscode",
+      "url": "https://github.com/timonwong/vscode-shellcheck#readme",
+      "startDate": "2020-05-07",
+      "highlights": ["Bundled the shellcheck binaries with the extension, so it works without additional installations"],
+      "keywords": ["TypeScript", "VSCode"],
+      "type": "Volunteering"
     }
   ]
 }
