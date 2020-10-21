@@ -176,6 +176,9 @@
       "name": "bindl",
       "description": "An utility to download binaries for different platforms",
       "url": "https://github.com/felipecrs/bindl#readme",
+      "roles": [
+        "Author"
+      ],
       "startDate": "2020-06-28",
       "keywords": [
         "TypeScript",
@@ -189,6 +192,9 @@
       "startDate": "2020-05-07",
       "highlights": [
         "Bundled the shellcheck binaries with the extension, so it works without additional installations"
+      ],
+      "roles": [
+        "Maintainer"
       ],
       "keywords": [
         "TypeScript",
