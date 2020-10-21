@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "resume serve",
+        "test": "resume test"
+    },
+    "dependencies": {
+        "resume-cli": "^2.0.0"
+    }
+}
