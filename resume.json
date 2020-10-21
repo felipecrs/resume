@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/resume",
   "meta": {
-    "canonical": "https://gist.githubusercontent.com/felipecrs/752f9ab929a558847557d791171f08a6/raw/resume.json",
-    "theme": "kendall"
+    "canonical": "https://raw.githubusercontent.com/felipecrs/resume/master/resume.json",
+    "theme": "even"
   },
   "basics": {
     "name": "Felipe Santos",
     "label": "Computer Engineer",
-    "image": "https://gist.githubusercontent.com/felipecrs/752f9ab929a558847557d791171f08a6/raw/889871dad358a7e461bff9c84b0063d98eca3295/picture.jpg",
+    "image": "https://raw.githubusercontent.com/felipecrs/resume/master/profile.jpg",
     "email": "felipecassiors@gmail.com",
     "phone": "+55 (35) 998450190",
     "url": "https://felipesantos.dev",
@@ -45,7 +45,7 @@
   "skills": [
     {
       "name": "Software Development",
-      "level": "",
+      "level": "Advanced",
       "keywords": [
         "TypeScript / JavasScript / Node.js",
         "Shell Script",
@@ -60,7 +60,7 @@
     },
     {
       "name": "DevOps",
-      "level": "",
+      "level": "Advanced",
       "keywords": [
         "Docker",
         "Kubernetes",
@@ -77,7 +77,7 @@
     },
     {
       "name": "Database",
-      "level": "",
+      "level": "Basic",
       "keywords": [
         "SQL",
         "MongoDB",
@@ -89,7 +89,7 @@
     },
     {
       "name": "Network Management",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "Windows Server",
         "DNS",
