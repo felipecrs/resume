@@ -78,12 +78,24 @@
     {
       "name": "Database",
       "level": "",
-      "keywords": ["SQL", "MongoDB", "MySQL", "Postgres", "Oracle", "SQLite"]
+      "keywords": [
+        "SQL",
+        "MongoDB",
+        "MySQL",
+        "Postgres",
+        "Oracle",
+        "SQLite"
+      ]
     },
     {
       "name": "Network Management",
       "level": "",
-      "keywords": ["Windows Server", "DNS", "Spiceworks", "Active Directory"]
+      "keywords": [
+        "Windows Server",
+        "DNS",
+        "Spiceworks",
+        "Active Directory"
+      ]
     }
   ],
   "languages": [
@@ -127,24 +139,6 @@
       "summary": "Computer maintenance and network management."
     }
   ],
-  "education": [
-    {
-      "institution": "Instituto Nacional de Telecomunicações - Inatel",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor's",
-      "url": "https://inatel.br/vestibular/engenharia-de-computacao",
-      "startDate": "2015-07-01",
-      "endDate": "2020-07-26"
-    },
-    {
-      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
-      "area": "Industrial Automation Technician",
-      "studyType": "Technician",
-      "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
-      "startDate": "2013-01-01",
-      "endDate": "2014-12-31"
-    }
-  ],
   "publications": [
     {
       "name": "Price Search",
@@ -167,24 +161,39 @@
       "description": "Catalog Manager and Order Care",
       "entity": "Ericsson",
       "url": "https://www.ericsson.com/en/portfolio/digital-services/digital-bss",
-      "roles": ["DevOps", "Software Developer"],
+      "roles": [
+        "DevOps",
+        "Software Developer"
+      ],
       "startDate": "2018-08-01",
-      "keywords": ["JavaScript", "Java", "Shell Script"]
+      "keywords": [
+        "JavaScript",
+        "Java",
+        "Shell Script"
+      ]
     },
     {
       "name": "bindl",
       "description": "An utility to download binaries for different platforms",
       "url": "https://github.com/felipecrs/bindl#readme",
       "startDate": "2020-06-28",
-      "keywords": ["TypeScript", "NPM"]
+      "keywords": [
+        "TypeScript",
+        "NPM"
+      ]
     },
     {
       "name": "vscode-shellcheck",
       "description": "An extension to use shellcheck in vscode",
       "url": "https://github.com/timonwong/vscode-shellcheck#readme",
       "startDate": "2020-05-07",
-      "highlights": ["Bundled the shellcheck binaries with the extension, so it works without additional installations"],
-      "keywords": ["TypeScript", "VSCode"],
+      "highlights": [
+        "Bundled the shellcheck binaries with the extension, so it works without additional installations"
+      ],
+      "keywords": [
+        "TypeScript",
+        "VSCode"
+      ],
       "type": "Volunteering"
     }
   ]
