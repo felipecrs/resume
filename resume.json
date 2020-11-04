@@ -47,7 +47,7 @@
       "name": "Software Development",
       "level": "Advanced",
       "keywords": [
-        "TypeScript / JavasScript / Node.js",
+        "TypeScript/JavasScript/Node.js",
         "Shell Script",
         "Java",
         "Groovy",
@@ -72,7 +72,7 @@
         "GitHub",
         "Gradle",
         "Maven",
-        "CI / CD"
+        "CI/CD"
       ]
     },
     {
@@ -106,10 +106,6 @@
     {
       "language": "English",
       "fluency": "Fluent"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Beginner"
     }
   ],
   "work": [
@@ -119,7 +115,7 @@
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2020-07-01",
-      "summary": "Software Development for Ericsson focused on CI / CD and Cloud-Native technologies."
+      "summary": "Software Development for Ericsson focused on CI/CD and Cloud-Native technologies."
     },
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
@@ -128,7 +124,7 @@
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2018-10-01",
       "endDate": "2020-07-01",
-      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI / CD technologies."
+      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI/CD technologies."
     },
     {
       "name": "Gabriele Confecção",
@@ -201,6 +197,32 @@
         "VSCode"
       ],
       "type": "Volunteering"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Nacional de Telecomunicações - Inatel",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's",
+      "url": "https://inatel.br/vestibular/engenharia-de-computacao",
+      "startDate": "2015-07-01",
+      "endDate": "2020-07-26"
+    },
+    {
+      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
+      "area": "Industrial Automation Technician",
+      "studyType": "Technician",
+      "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
+      "startDate": "2013-01-01",
+      "endDate": "2014-12-31"
+    }
+  ],
+  "awards": [
+    {
+      "awarder": "Instituto Nacional de Telecomunicações - Inatel",
+      "date": "2020-09-14",
+      "title": "Certificate of Academic Performance Excellence",
+      "summary": "Acknowledgment of the excellent performance during the first semester of 2020 of the Computer Engineering graduation."
     }
   ]
 }
