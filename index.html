@@ -124,14 +124,6 @@ h6 {
   font-size: var(--scale0);
 }
 
-p:not(:first-child) {
-  margin-top: 1em;
-}
-
-p:not(:last-child) {
-  margin-bottom: 1em;
-}
-
 blockquote {
   border-left: 0.2em solid var(--mutedColor);
   padding-left: 1em;
@@ -146,7 +138,7 @@ cite::before {
   content: '— ';
 }
 
-header {
+.masthead {
   background: var(--mutedColor);
   display: inherit;
   gap: inherit;
@@ -156,9 +148,14 @@ header {
   row-gap: 0;
 }
 
-header > *,
+.masthead > *,
 section {
   grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
 }
 
 .stack {
@@ -202,13 +199,13 @@ section {
   padding: 0.2em 0.6em;
 }
 
-@media (min-width: 48em) {
+@media print, (min-width: 48em) {
   h3 {
     text-align: right;
     margin-bottom: inherit;
   }
 
-  header > *,
+  .masthead > *,
   section {
     grid-column: content;
   }
@@ -224,7 +221,7 @@ section {
 </style>
   </head>
   <body>
-      <header>
+      <header class="masthead">
           <h1>Felipe Santos</h1>
           <h2>Computer Engineer</h2>
       </header>
@@ -232,42 +229,42 @@ section {
         <h3>Contact</h3>
         <div class="grid-list">
             <div>
-              <h6>Email</h6>
+              <h4>Email</h4>
               <a href="mailto:felipecassiors@gmail.com">felipecassiors@gmail.com</a>
             </div>
             <div>
-              <h6>Phone</h6>
+              <h4>Phone</h4>
               +55 (35) 998450190
             </div>
             <div>
-              <h6>Website</h6>
-              <a href="https://felipesantos.dev">https://felipesantos.dev</a>
+              <h4>Website</h4>
+              <a href="https://felipesantos.dev">felipesantos.dev</a>
             </div>
         </div>
       </section>
         <section id="about">
           <h3>About</h3>
-          <div>
+          <article>
             <p>A Computer Engineer with great experience in CI/CD and Cloud-Native technologies and problem-solving skills. Passionate for open source.</p>
-          </div>
+          </article>
         </section>
         <section id="profiles">
           <h3>Profiles</h3>
           <div class="grid-list">
               <div>
-                  <h6>GitHub</h6>
+                  <h4>GitHub</h4>
                     <a href="https://github.com/felipecrs">felipecrs</a>
               </div>
               <div>
-                  <h6>LinkedIn</h6>
+                  <h4>LinkedIn</h4>
                     <a href="https://linkedin.com/in/felipecassiors">felipecassiors</a>
               </div>
               <div>
-                  <h6>Sourcerer</h6>
+                  <h4>Sourcerer</h4>
                     <a href="https://sourcerer.io/felipecassiors">felipecassiors</a>
               </div>
               <div>
-                  <h6>CodersRank</h6>
+                  <h4>CodersRank</h4>
                     <a href="https://profile.codersrank.io/user/felipecassiors">felipecassiors</a>
               </div>
           </div>
@@ -277,44 +274,50 @@ section {
         <h3>Work</h3>
         <div class="stack">
             <article>
-              <div class="spaced-list">
-                <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
-                <span>
-                  <time datetime="2020-07-01">Jul 2020</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>System Specialist</strong>
-                  <a href="https://inatel.br/icc">https://inatel.br/icc</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
+                  <span>
+                    <time datetime="2020-07-01">Jul 2020</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>System Specialist</strong>
+                    <a href="https://inatel.br/icc">inatel.br/icc</a>
+                </div>
+              </header>
                 <p>Software Development for Ericsson focused on CI/CD and Cloud-Native technologies.</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
-                <span>
-                  <time datetime="2018-10-01">Oct 2018</time> –
-                  <time datetime="2020-07-01">Jul 2020</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>System Specialist Intern</strong>
-                  <a href="https://inatel.br/icc">https://inatel.br/icc</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
+                  <span>
+                    <time datetime="2018-10-01">Oct 2018</time> –
+                    <time datetime="2020-07-01">Jul 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>System Specialist Intern</strong>
+                    <a href="https://inatel.br/icc">inatel.br/icc</a>
+                </div>
+              </header>
                 <p>Software Development Internship for Ericsson, embracing web back-end and CI/CD technologies.</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>Gabriele Confecção</h4>
-                <span>
-                  <time datetime="2015-07-01">Jul 2015</time> –
-                  <time datetime="2018-10-01">Oct 2018</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Information Technology Technician</strong>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Gabriele Confecção</h4>
+                  <span>
+                    <time datetime="2015-07-01">Jul 2015</time> –
+                    <time datetime="2018-10-01">Oct 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Information Technology Technician</strong>
+                </div>
+              </header>
                 <p>Computer maintenance and network management.</p>
             </article>
         </div>
@@ -323,31 +326,35 @@ section {
         <h3>Education</h3>
         <div class="stack">
             <article>
-              <div class="spaced-list">
-                <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
-                <span>
-                  <time datetime="2015-07-01">Jul 2015</time> –
-                  <time datetime="2020-07-26">Jul 2020</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Computer Engineering</strong>
-                  <a href="https://inatel.br/vestibular/engenharia-de-computacao">https://inatel.br/vestibular/engenharia-de-computacao</a>
-              </div>
-                <p>Bachelor&#x27;s</p>
+              <header>
+                <div class="spaced-list">
+                  <h4>Instituto Nacional de Telecomunicações - Inatel</h4>
+                  <span>
+                    <time datetime="2015-07-01">Jul 2015</time> –
+                    <time datetime="2020-07-26">Jul 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Computer Engineering</strong>
+                    <a href="https://inatel.br/vestibular/engenharia-de-computacao">inatel.br/vestibular/engenharia-de-computacao</a>
+                </div>
+              </header>
+                <p>Bachelor's</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>Escola Técnica de Eletrônica &quot;Francisco Moreira da Costa&quot; - ETE &quot;FMC&quot;</h4>
-                <span>
-                  <time datetime="2013-01-01">Jan 2013</time> –
-                  <time datetime="2014-12-31">Dec 2014</time>
-                </span>
-              </div>
-              <div class="spaced-list">
-                  <strong>Industrial Automation Technician</strong>
-                  <a href="https://www.etefmc.com.br/curso-de-automacao-industrial">https://www.etefmc.com.br/curso-de-automacao-industrial</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Escola Técnica de Eletrônica &quot;Francisco Moreira da Costa&quot; - ETE &quot;FMC&quot;</h4>
+                  <span>
+                    <time datetime="2013-01-01">Jan 2013</time> –
+                    <time datetime="2014-12-31">Dec 2014</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Industrial Automation Technician</strong>
+                    <a href="https://www.etefmc.com.br/curso-de-automacao-industrial">www.etefmc.com.br/curso-de-automacao-industrial</a>
+                </div>
+              </header>
                 <p>Technician</p>
             </article>
         </div>
@@ -356,52 +363,58 @@ section {
         <h3>Projects</h3>
         <div class="stack">
             <article>
-              <div class="spaced-list">
-                <h4>Digital BSS</h4>
-                <span>
-                  <time datetime="2018-08-01">Aug 2018</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                    <strong>DevOps, Software Developer</strong>
-                    at <strong>Ericsson</strong>
-                </span>
-                  <a href="https://www.ericsson.com/en/portfolio/digital-services/digital-bss">https://www.ericsson.com/en/portfolio/digital-services/digital-bss</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Digital BSS</h4>
+                  <span>
+                    <time datetime="2018-08-01">Aug 2018</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>DevOps, Software Developer</strong>
+                      at <strong>Ericsson</strong>
+                  </span>
+                    <a href="https://www.ericsson.com/en/portfolio/digital-services/digital-bss">www.ericsson.com/en/portfolio/digital-services/digital-bss</a>
+                </div>
+              </header>
                 <p>Catalog Manager and Order Care</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>bindl</h4>
-                <span>
-                  <time datetime="2020-06-28">Jun 2020</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                    <strong>Author</strong>
-                </span>
-                  <a href="https://github.com/felipecrs/bindl#readme">https://github.com/felipecrs/bindl#readme</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>bindl</h4>
+                  <span>
+                    <time datetime="2020-06-28">Jun 2020</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>Author</strong>
+                  </span>
+                    <a href="https://github.com/felipecrs/bindl#readme">github.com/felipecrs/bindl#readme</a>
+                </div>
+              </header>
                 <p>An utility to download binaries for different platforms</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>vscode-shellcheck</h4>
-                <span>
-                  <time datetime="2020-05-07">May 2020</time> –
-                  Present
-                </span>
-              </div>
-              <div class="spaced-list">
-                <span>
-                    <strong>Maintainer</strong>
-                </span>
-                  <a href="https://github.com/timonwong/vscode-shellcheck#readme">https://github.com/timonwong/vscode-shellcheck#readme</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>vscode-shellcheck</h4>
+                  <span>
+                    <time datetime="2020-05-07">May 2020</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>Maintainer</strong>
+                  </span>
+                    <a href="https://github.com/timonwong/vscode-shellcheck#readme">github.com/timonwong/vscode-shellcheck#readme</a>
+                </div>
+              </header>
                 <p>An extension to use shellcheck in vscode</p>
                 <h5>Highlights</h5>
                 <ul>
@@ -414,15 +427,17 @@ section {
         <h3>Awards</h3>
         <div class="stack">
             <article>
-              <div class="spaced-list">
-                <h4>Certificate of Academic Performance Excellence</h4>
-                  <time datetime="2020-09-14">Sep 2020</time>
-              </div>
-              <div class="spaced-list">
-                  <div>
-                    Awarded by <strong>Instituto Nacional de Telecomunicações - Inatel</strong>
-                  </div>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Certificate of Academic Performance Excellence</h4>
+                    <time datetime="2020-09-14">Sep 2020</time>
+                </div>
+                <div class="spaced-list">
+                    <div>
+                      Awarded by <strong>Instituto Nacional de Telecomunicações - Inatel</strong>
+                    </div>
+                </div>
+              </header>
                 <p>Acknowledgment of the excellent performance during the first semester of 2020 of the Computer Engineering graduation</p>
             </article>
         </div>
@@ -431,29 +446,33 @@ section {
         <h3>Publications</h3>
         <div class="stack">
             <article>
-              <div class="spaced-list">
-                <h4>Price Search</h4>
-                  <time datetime="2020-07-21">Jul 2020</time>
-              </div>
-              <div class="spaced-list">
-                  <span>
-                    Published by <strong>Instituto Nacional de Telecomunicações - Inatel</strong>
-                  </span>
-                  <a href="https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf">https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Price Search</h4>
+                    <time datetime="2020-07-21">Jul 2020</time>
+                </div>
+                <div class="spaced-list">
+                    <span>
+                      Published by <strong>Instituto Nacional de Telecomunicações - Inatel</strong>
+                    </span>
+                    <a href="https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf">github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf</a>
+                </div>
+              </header>
                 <p>An open source project for search and comparison of prices in local establishments (Undergraduate Thesis in Portuguese)</p>
             </article>
             <article>
-              <div class="spaced-list">
-                <h4>Dev Ubuntu 20.04</h4>
-                  <time datetime="2020-05-26">May 2020</time>
-              </div>
-              <div class="spaced-list">
-                  <span>
-                    Published by <strong>DEV</strong>
-                  </span>
-                  <a href="https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh">https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh</a>
-              </div>
+              <header>
+                <div class="spaced-list">
+                  <h4>Dev Ubuntu 20.04</h4>
+                    <time datetime="2020-05-26">May 2020</time>
+                </div>
+                <div class="spaced-list">
+                    <span>
+                      Published by <strong>DEV</strong>
+                    </span>
+                    <a href="https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh">dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh</a>
+                </div>
+              </header>
                 <p>The history of a Virtual Machine managed as a Docker image</p>
             </article>
         </div>
@@ -462,7 +481,7 @@ section {
         <h3>Skills</h3>
         <div class="grid-list">
             <div>
-                <h5>Software Development</h5>
+                <h4>Software Development</h4>
                 <ul class="tag-list">
                     <li>TypeScript/JavasScript/Node.js</li>
                     <li>Shell Script</li>
@@ -476,7 +495,7 @@ section {
                 </ul>
             </div>
             <div>
-                <h5>DevOps</h5>
+                <h4>DevOps</h4>
                 <ul class="tag-list">
                     <li>Docker</li>
                     <li>Kubernetes</li>
@@ -492,7 +511,7 @@ section {
                 </ul>
             </div>
             <div>
-                <h5>Database</h5>
+                <h4>Database</h4>
                 <ul class="tag-list">
                     <li>SQL</li>
                     <li>MongoDB</li>
@@ -503,7 +522,7 @@ section {
                 </ul>
             </div>
             <div>
-                <h5>Network Management</h5>
+                <h4>Network Management</h4>
                 <ul class="tag-list">
                     <li>Windows Server</li>
                     <li>DNS</li>
@@ -517,11 +536,11 @@ section {
         <h3>Languages</h3>
         <div class="grid-list">
             <div>
-                <h6>Portuguese</h6>
+                <h4>Portuguese</h4>
               Native
             </div>
             <div>
-                <h6>English</h6>
+                <h4>English</h4>
               Fluent
             </div>
         </div>
