@@ -5,7 +5,7 @@
     "test": "resume test",
     "export": "resume export resume.pdf"
   },
-  "dependencies": {
-    "resume-cli": "^2.0.0"
+  "devDependencies": {
+    "resume-cli": "^3.0.3"
   }
 }
