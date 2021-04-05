@@ -10,7 +10,7 @@
     "image": "https://raw.githubusercontent.com/felipecrs/resume/master/profile.jpg",
     "email": "felipecassiors@gmail.com",
     "phone": "+55 (35) 998450190",
-    "url": "https://felipesantos.dev",
+    "url": "https://felipecrs.com",
     "summary": "A Computer Engineer with great experience in CI/CD and Cloud-Native technologies and problem-solving skills. Passionate for open source.",
     "location": {
       "address": "Rua Josino Tenório Rocha, 73",
@@ -26,18 +26,18 @@
         "network": "GitHub"
       },
       {
-        "url": "https://linkedin.com/in/felipecassiors",
-        "username": "felipecassiors",
+        "url": "https://linkedin.com/in/felipecrs",
+        "username": "felipecrs",
         "network": "LinkedIn"
       },
       {
-        "url": "https://sourcerer.io/felipecassiors",
-        "username": "felipecassiors",
+        "url": "https://sourcerer.io/felipecrs",
+        "username": "felipecrs",
         "network": "Sourcerer"
       },
       {
-        "url": "https://profile.codersrank.io/user/felipecassiors",
-        "username": "felipecassiors",
+        "url": "https://profile.codersrank.io/user/felipecrs",
+        "username": "felipecrs",
         "network": "CodersRank"
       }
     ]
@@ -47,14 +47,15 @@
       "name": "Software Development",
       "level": "Advanced",
       "keywords": [
-        "TypeScript/JavasScript/Node.js",
+        "TypeScript",
+        "JavasScript",
         "Shell Script",
+        "Bash",
         "Java",
         "Groovy",
         "PowerShell",
         "Python",
         "Go",
-        "C++",
         "REST"
       ]
     },
@@ -72,6 +73,7 @@
         "GitHub",
         "Gradle",
         "Maven",
+        "NPM",
         "CI/CD"
       ]
     },
