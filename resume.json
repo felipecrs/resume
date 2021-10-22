@@ -11,7 +11,7 @@
     "email": "felipecassiors@gmail.com",
     "phone": "+55 (35) 998450190",
     "url": "https://felipecrs.com",
-    "summary": "A Computer Engineer with great experience in CI/CD and Cloud-Native technologies and problem-solving skills. Passionate for open source.",
+    "summary": "A Computer Engineer with comprehensive knowledge if Software Development, great experience in CI/CD and Cloud-Native tools, and problem-solving skills. Passionate for open source",
     "location": {
       "address": "Rua Josino Tenório Rocha, 73",
       "city": "Conceição dos Ouros",
@@ -29,11 +29,6 @@
         "url": "https://linkedin.com/in/felipecrs",
         "username": "felipecrs",
         "network": "LinkedIn"
-      },
-      {
-        "url": "https://sourcerer.io/felipecrs",
-        "username": "felipecrs",
-        "network": "Sourcerer"
       },
       {
         "url": "https://profile.codersrank.io/user/felipecrs",
@@ -113,20 +108,29 @@
   "work": [
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "System Specialist",
+      "position": "Software Configuration Manager II",
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
-      "startDate": "2020-07-01",
-      "summary": "Software Development for Ericsson focused on CI/CD and Cloud-Native technologies."
+      "startDate": "2021-04-01",
+      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "System Specialist Intern",
+      "position": "Software Configuration Manager I",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "startDate": "2020-07-01",
+      "endDate": "2021-03-31",
+      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+    },
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "position": "Software Developer Intern",
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2018-10-01",
       "endDate": "2020-07-01",
-      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI/CD technologies."
+      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI/CD technologies"
     },
     {
       "name": "Gabriele Confecção",
@@ -134,16 +138,16 @@
       "location": "Cachoeira de Minas, MG. Brazil",
       "startDate": "2015-07-01",
       "endDate": "2018-10-01",
-      "summary": "Computer maintenance and network management."
+      "summary": "Computer maintenance and network management"
     }
   ],
   "publications": [
     {
-      "name": "Price Search",
-      "publisher": "Instituto Nacional de Telecomunicações - Inatel",
-      "releaseDate": "2020-07-21",
-      "summary": "An open source project for search and comparison of prices in local establishments (Undergraduate Thesis in Portuguese)",
-      "url": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
+      "name": "Running Docker on WSL2 without Docker Desktop (the right way)",
+      "publisher": "DEV",
+      "releaseDate": "2021-10-15",
+      "summary": "A comprehensive guide on how to replace Docker Desktop when using Windows Subsystem for Linux 2",
+      "url": "https://dev.to/felipecrs/simply-run-docker-on-wsl2-3o8"
     },
     {
       "name": "Dev Ubuntu 20.04",
@@ -151,6 +155,13 @@
       "releaseDate": "2020-05-26",
       "summary": "The history of a Virtual Machine managed as a Docker image",
       "url": "https://dev.to/felipecassiors/dev-ubuntu-20-04-the-history-of-a-virtual-machine-managed-as-a-docker-image-5ahh"
+    },
+    {
+      "name": "Price Search",
+      "publisher": "Instituto Nacional de Telecomunicações - Inatel",
+      "releaseDate": "2020-07-21",
+      "summary": "An open source project for search and comparison of prices in local establishments (Undergraduate Thesis in Portuguese)",
+      "url": "https://github.com/price-search/paper/releases/download/2020-21-07/Price_Search.pdf"
     }
   ],
   "projects": [
@@ -167,38 +178,52 @@
       "keywords": [
         "JavaScript",
         "Java",
+        "Shell Script",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Dotfiles",
+      "description": "Set of files and scripts which pushes the bootstrapping of development environments to the next level",
+      "url": "https://github.com/timonwong/vscode-shellcheck#readme",
+      "startDate": "2020-06-23",
+      "highlights": [
+        "Used as base to build a centrally managed development environment for an entire team"
+      ],
+      "roles": [
+        "Author"
+      ],
+      "keywords": [
         "Shell Script"
       ]
     },
     {
-      "name": "bindl",
-      "description": "An utility to download binaries for different platforms",
-      "url": "https://github.com/felipecrs/bindl#readme",
-      "roles": [
-        "Author"
-      ],
-      "startDate": "2020-06-28",
-      "keywords": [
-        "TypeScript",
-        "NPM"
-      ]
-    },
-    {
-      "name": "vscode-shellcheck",
+      "name": "ShellCheck for Visual Studio Code",
       "description": "An extension to use shellcheck in vscode",
       "url": "https://github.com/timonwong/vscode-shellcheck#readme",
       "startDate": "2020-05-07",
       "highlights": [
-        "Bundled the shellcheck binaries with the extension, so it works without additional installations"
+        "Bundled the ShellCheck binaries with the extension, so it starts working right after installing without requiring additional steps",
+        "Added auto-fix on save feature which helps to easily refactor old shell scripts"
       ],
       "roles": [
         "Maintainer"
       ],
       "keywords": [
         "TypeScript",
-        "VSCode"
+        "Visual Studio Code",
+        "Shell Script"
       ],
       "type": "Volunteering"
+    },
+    {
+      "name": "Other Open Source Projects/Contributions",
+      "description": "Check out some interesting statistics of open source contributions",
+      "url": "https://github.com/felipecrs",
+      "startDate": "2017-01-02"
     }
   ],
   "education": [
