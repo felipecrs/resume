@@ -2,7 +2,7 @@
   "scripts": {
     "start": "resume serve",
     "build": "mkdir -p public && resume export public/index.html",
-    "test": "resume test",
+    "test": "resume validate",
     "export": "resume export resume.pdf"
   },
   "devDependencies": {
