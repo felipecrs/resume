@@ -6,6 +6,10 @@
     "export": "resume export resume.pdf"
   },
   "devDependencies": {
-    "resume-cli": "^3.0.3"
+    "resume-cli": "^3.0.6"
+  },
+  "volta": {
+    "node": "16.14.0",
+    "npm": "8.5.0"
   }
 }
