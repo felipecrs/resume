@@ -30,5 +30,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           name: PDF
+          body: The latest resume in PDF format.
           tag_name: latest
           files: resume.pdf
