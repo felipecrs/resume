@@ -1,17 +1,17 @@
 {
-  "$schema": "https://json.schemastore.org/resume",
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/felipecrs/resume/master/resume.json",
+    "canonical": "https://raw.githubusercontent.com/felipecrs/resume/HEAD/resume.json",
     "theme": "even"
   },
   "basics": {
     "name": "Felipe Santos",
     "label": "Computer Engineer",
-    "image": "https://raw.githubusercontent.com/felipecrs/resume/master/profile.jpg",
+    "image": "https://raw.githubusercontent.com/felipecrs/resume/HEAD/profile.jpg",
     "email": "felipecassiors@gmail.com",
     "phone": "+55 (35) 998450190",
     "url": "https://felipecrs.com",
-    "summary": "A Computer Engineer with comprehensive knowledge if Software Development, great experience in CI/CD and Cloud-Native tools, and problem-solving skills. Passionate for open source",
+    "summary": "A Computer Engineer with comprehensive knowledge of Software Development, broad experience with CI/CD and Cloud-Native tools, and problem-solving skills. Passionate for open source.",
     "location": {
       "address": "Rua Josino Tenório Rocha, 73",
       "city": "Conceição dos Ouros",
@@ -29,6 +29,11 @@
         "url": "https://linkedin.com/in/felipecrs",
         "username": "felipecrs",
         "network": "LinkedIn"
+      },
+      {
+        "url": "https://stackexchange.com/users/16459717/felipecrs?tab=accounts",
+        "username": "felipecrs",
+        "network": "StackExchange"
       },
       {
         "url": "https://profile.codersrank.io/user/felipecrs",
@@ -63,6 +68,7 @@
         "Linux",
         "Jenkins",
         "Vagrant",
+        "Visual Studio Code",
         "Git",
         "Gerrit",
         "GitHub",
@@ -246,10 +252,16 @@
   ],
   "awards": [
     {
-      "awarder": "Instituto Nacional de Telecomunicações - Inatel",
+      "awarder": "Instituto Nacional de Telecomunicações - INATEL",
       "date": "2020-09-14",
       "title": "Certificate of Academic Performance Excellence",
       "summary": "Acknowledgment of the excellent performance during the first semester of 2020 of the Computer Engineering graduation"
+    },
+    {
+      "awarder": "Instituto Nacional de Estudio e Pesquisas Educacionais - INEP",
+      "date": "2019-09-14",
+      "title": "Best grade in the National Student Performance Exam of Computer Engineering in State",
+      "summary": "The best grade in the 2019 National Student Performance Exam (ENADE) of Computer Engineering in the Minas Gerais State"
     }
   ]
 }
