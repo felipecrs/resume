@@ -114,10 +114,19 @@
   "work": [
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "position": "Senior Software Configuration Manager",
+      "url": "https://inatel.br/icc",
+      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "startDate": "2022-04-01",
+      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+    },
+    {
+      "name": "Instituto Nacional de Telecomunicações - Inatel",
       "position": "Software Configuration Manager II",
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2021-04-01",
+      "endDate": "2022-03-31",
       "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
@@ -127,7 +136,7 @@
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2020-07-01",
       "endDate": "2021-03-31",
-      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+      "summary": "Working for Ericsson in the Digital BSS project, acting Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
@@ -177,6 +186,8 @@
       "entity": "Ericsson",
       "url": "https://www.ericsson.com/en/portfolio/digital-services/digital-bss",
       "roles": [
+        "Software Configuration Manager",
+        "Team Architect",
         "DevOps",
         "Software Developer"
       ],
