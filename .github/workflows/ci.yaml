@@ -3,10 +3,10 @@ name: ci
 on:
   push:
     branches: [master]
-    paths: [resume.json, profile.jpg, package.json, .github/workflows/ci.yaml]
+    paths: [resume.json, profile.jpg, generate-pdf.js, package.json, package-lock.json, .github/workflows/ci.yaml]
   pull_request:
     branches: [master]
-    paths: [resume.json, profile.jpg, package.json, .github/workflows/ci.yaml]
+    paths: [resume.json, profile.jpg, generate-pdf.js, package.json, package-lock.json, .github/workflows/ci.yaml]
 
 jobs:
   deploy:
@@ -18,8 +18,7 @@ jobs:
       - run: npm install
       - run: npm test
       - run: npm run build
-      - name: Generate PDF
-        run: npm run export
+      - run: npm run generate-pdf
 
       # Publish steps, only runs when pushing to the default branch
       - if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
@@ -39,3 +38,4 @@ jobs:
           body: The latest resume in PDF format.
           tag_name: latest
           files: resume.pdf
+          fail_on_unmatched_files: true
