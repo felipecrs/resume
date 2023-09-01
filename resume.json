@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/felipecrs/resume/HEAD/resume.json",
-    "theme": "even"
+    "theme": "jsonresume-theme-even"
   },
   "basics": {
     "name": "Felipe Santos",

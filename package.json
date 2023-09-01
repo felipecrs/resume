@@ -1,13 +1,16 @@
 {
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "resume serve",
-    "build": "mkdir -p public && resume export public/index.html",
-    "test": "resume validate",
-    "export": "resume export resume.pdf"
+    "clean": "rm -rf public resume.pdf",
+    "build": "mkdir -p public && resumed render --output public/index.html",
+    "test": "resumed validate",
+    "generate-pdf": "node generate-pdf.js"
   },
   "devDependencies": {
-    "resume-cli": "^3.0.6",
-    "jsonresume-theme-even": "^0.20.0"
+    "jsonresume-theme-even": "^0.20.0",
+    "puppeteer": "^21.1.1",
+    "resumed": "^3.0.1"
   },
   "volta": {
     "node": "18.17.1",
