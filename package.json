@@ -6,10 +6,11 @@
     "export": "resume export resume.pdf"
   },
   "devDependencies": {
-    "resume-cli": "^3.0.6"
+    "resume-cli": "^3.0.6",
+    "jsonresume-theme-even": "^0.20.0"
   },
   "volta": {
-    "node": "16.14.0",
-    "npm": "8.5.0"
+    "node": "18.17.1",
+    "npm": "9.8.1"
   }
 }
