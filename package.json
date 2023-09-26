@@ -8,9 +8,9 @@
     "generate-pdf": "node generate-pdf.js"
   },
   "devDependencies": {
-    "jsonresume-theme-even": "^0.21.0",
+    "jsonresume-theme-even": "0.21.0",
     "puppeteer": "^21.3.5",
-    "resumed": "^3.0.1"
+    "resumed": "3.0.1"
   },
   "volta": {
     "node": "18.17.1",
