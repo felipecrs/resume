@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "jsonresume-theme-even": "0.22.0",
-    "puppeteer": "^22.1.0",
+    "puppeteer": "^23.1.0",
     "resumed": "3.0.1"
   },
   "volta": {
