@@ -9,13 +9,13 @@
     "label": "Computer Engineer",
     "image": "https://raw.githubusercontent.com/felipecrs/resume/HEAD/profile.jpg",
     "email": "felipecassiors@gmail.com",
-    "phone": "+55 (35) 998450190",
+    "phone": "+55 35 99845 0190",
     "url": "https://felipecrs.com",
     "summary": "A Computer Engineer with comprehensive knowledge of Software Development, broad experience with CI/CD and Cloud-Native tools, and problem-solving skills. Passionate for open source.",
     "location": {
-      "address": "Rua Josino Tenório Rocha, 73",
-      "city": "Conceição dos Ouros",
-      "region": "MG",
+      "address": "Rua Josino Tenorio Rocha, 73",
+      "city": "Conceicao dos Ouros",
+      "region": "Minas Gerais",
       "postalCode": "37548-000",
       "countryCode": "BR"
     },
@@ -33,7 +33,7 @@
       {
         "url": "https://stackexchange.com/users/16459717/felipecrs?tab=accounts",
         "username": "felipecrs",
-        "network": "StackExchange"
+        "network": "Stack Overflow"
       },
       {
         "url": "https://profile.codersrank.io/user/felipecrs",
@@ -113,44 +113,53 @@
   ],
   "work": [
     {
-      "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "Senior Software Configuration Manager",
+      "name": "Ericsson",
+      "position": "Sr. DevOps Engineer",
+      "url": "https://www.ericsson.com",
+      "location": "Indaiatuba, Sao Paulo, Brazil (remote)",
+      "startDate": "2024-08-01",
+      "summary": "Focused on CI/CD, Cloud-Native technologies, and site reliability"
+    },
+    {
+      "name": "Inatel",
+      "position": "Sr. DevOps",
       "url": "https://inatel.br/icc",
-      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "location": "Santa Rita do Sapucai, Minas Gerais, Brazil (remote)",
       "startDate": "2022-04-01",
-      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+      "endDate": "2024-07-19",
+      "summary": "Sr. DevOps as a Consultant for Ericsson, focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "Software Configuration Manager II",
+      "position": "DevOps II",
       "url": "https://inatel.br/icc",
-      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "location": "Santa Rita do Sapucai, Minas Gerais, Brazil (remote)",
       "startDate": "2021-04-01",
       "endDate": "2022-03-31",
-      "summary": "Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+      "summary": "DevOps as a Consultant for Ericsson, focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
       "name": "Instituto Nacional de Telecomunicações - Inatel",
-      "position": "Software Configuration Manager I",
+      "position": "DevOps I",
       "url": "https://inatel.br/icc",
-      "location": "Santa Rita do Sapucaí, MG. Brazil",
+      "location": "Santa Rita do Sapucai, Minas Gerais, Brazil (remote)",
       "startDate": "2020-07-01",
       "endDate": "2021-03-31",
-      "summary": "Working for Ericsson in the Digital BSS project, acting Software Development for Ericsson focused on CI/CD, Cloud-Native technologies, and site reliability"
+      "summary": "DevOps as a Consultant for Ericsson, focused on CI/CD, Cloud-Native technologies, and site reliability"
     },
     {
-      "name": "Instituto Nacional de Telecomunicações - Inatel",
+      "name": "Inatel",
       "position": "Software Developer Intern",
       "url": "https://inatel.br/icc",
       "location": "Santa Rita do Sapucaí, MG. Brazil",
       "startDate": "2018-10-01",
       "endDate": "2020-07-01",
-      "summary": "Software Development Internship for Ericsson, embracing web back-end and CI/CD technologies"
+      "summary": "Software Development Internship as a Consultant for Ericsson, embracing web back-end and CI/CD technologies"
     },
     {
-      "name": "Gabriele Confecção",
+      "name": "Gabriele Confeccao",
       "position": "Information Technology Technician",
-      "location": "Cachoeira de Minas, MG. Brazil",
+      "location": "Cachoeira de Minas, Minas Gerais, Brazil",
       "startDate": "2015-07-01",
       "endDate": "2018-10-01",
       "summary": "Computer maintenance and network management"
@@ -245,7 +254,7 @@
   ],
   "education": [
     {
-      "institution": "Instituto Nacional de Telecomunicações - Inatel",
+      "institution": "Inatel",
       "area": "Computer Engineering",
       "studyType": "Bachelor's",
       "url": "https://inatel.br/vestibular/engenharia-de-computacao",
@@ -253,7 +262,7 @@
       "endDate": "2020-07-26"
     },
     {
-      "institution": "Escola Técnica de Eletrônica \"Francisco Moreira da Costa\" - ETE \"FMC\"",
+      "institution": "ETE \"FMC\"",
       "area": "Industrial Automation Technician",
       "studyType": "Technician",
       "url": "https://www.etefmc.com.br/curso-de-automacao-industrial",
@@ -263,7 +272,7 @@
   ],
   "awards": [
     {
-      "awarder": "Instituto Nacional de Telecomunicações - INATEL",
+      "awarder": "Inatel",
       "date": "2020-09-14",
       "title": "Certificate of Academic Performance Excellence",
       "summary": "Acknowledgment of the excellent performance during the first semester of 2020 of the Computer Engineering graduation"
