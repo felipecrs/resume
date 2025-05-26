@@ -9,7 +9,7 @@
     "label": "Computer Engineer",
     "image": "https://raw.githubusercontent.com/felipecrs/resume/HEAD/profile.jpg",
     "email": "felipecassiors@gmail.com",
-    "phone": "+55 35 99845 0190",
+    "phone": "+5535998450190",
     "url": "https://felipecrs.com",
     "summary": "A Computer Engineer with comprehensive knowledge of Software Development, broad experience with CI/CD and Cloud-Native tools, and problem-solving skills. Passionate for open source.",
     "location": {
@@ -34,11 +34,6 @@
         "url": "https://stackexchange.com/users/16459717/felipecrs?tab=accounts",
         "username": "felipecrs",
         "network": "Stack Overflow"
-      },
-      {
-        "url": "https://profile.codersrank.io/user/felipecrs",
-        "username": "felipecrs",
-        "network": "CodersRank"
       }
     ]
   },
