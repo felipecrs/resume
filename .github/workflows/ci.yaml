@@ -3,10 +3,10 @@ name: ci
 on:
   push:
     branches: [master]
-    paths: [resume.json, profile.jpg, generate-pdf.js, package.json, package-lock.json, .github/workflows/ci.yaml]
+    paths: [resume.json, profile.jpg, package.json, package-lock.json, .github/workflows/ci.yaml]
   pull_request:
     branches: [master]
-    paths: [resume.json, profile.jpg, generate-pdf.js, package.json, package-lock.json, .github/workflows/ci.yaml]
+    paths: [resume.json, profile.jpg, package.json, package-lock.json, .github/workflows/ci.yaml]
 
 jobs:
   deploy:
@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: volta-cli/action@v4
+      - run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
       - run: npm install
       - run: npm test
       - run: npm run build
