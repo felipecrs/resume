@@ -5,12 +5,11 @@
     "clean": "rm -rf public resume.pdf",
     "build": "mkdir -p public && resumed render --output public/index.html",
     "test": "resumed validate",
-    "generate-pdf": "node generate-pdf.js"
+    "generate-pdf": "resumed export"
   },
   "devDependencies": {
-    "jsonresume-theme-even": "0.22.1",
-    "puppeteer": "^23.1.0",
-    "resumed": "4.0.0"
+    "jsonresume-theme-even": "^0.23.0",
+    "resumed": "^6.0.0"
   },
   "volta": {
     "node": "22.16.0",
