@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: volta-cli/action@v4
       - run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
       - run: npm install
