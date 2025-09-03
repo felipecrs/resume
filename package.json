@@ -8,7 +8,7 @@
     "generate-pdf": "resumed export"
   },
   "devDependencies": {
-    "jsonresume-theme-even": "^0.25.0",
+    "jsonresume-theme-even": "^0.26.0",
     "puppeteer": "^24.9.0",
     "resumed": "^6.0.0"
   },
